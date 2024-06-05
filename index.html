@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Blog</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+      .image-container {
+          position: relative;
+          text-align: center;
+          color: rgb(30, 153, 194);
+      }
+
+      .centered {
+          position: absolute;
+          top: 20%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          font-size: 2em;
+          background-color: rgba(0, 0, 0, 0.5); /* Optional: to make the text stand out more */
+          padding: 10px;
+      }
+      .navbar {
+            display: flex;
+            align-items: center;
+        }
+        
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+        }
+
+        .navbar ul li {
+            margin-right: 80px;
+        }
+
+        .navbar ul li a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .navbar ul li a:hover {
+            color: #007bff;
+        }
+
+        .logo {
+            margin-right: 20px;
+        }
+        .search-container {
+            display: flex;
+            align-items: center;
+            padding: 15px 60px ;
+        }
+
+        .search-container input[type="text"] {
+            padding: 15px;
+            margin-right: 30px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .search-container button {
+            padding: 15px 30px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .search-container button:hover {
+            background-color: #0056b3;
+        }
+  </style>
+  </head>
+<body bgcolor="blue">
+
+    <header>
+        <div class="header-content">
+            
+           
+        </div>
+    </header>
+    <nav class="navbar navbar-expand-sm bg-light">
+      <img src="Travelworldlogo.jpeg" alt="Blog Logo" class="logo" height="100px" width="130px">
+      <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#destinations">Destinations</a></li>
+          <li><a href="#tips">Travel Tips</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="search-container">
+        <input type="text" placeholder="Search...">
+        <button type="submit">Search</button>
+    </div>
+  </nav>
+    <section id="home">
+      <div class="image-container" backgroud-colour="blue">
+        <img src="ha-long-bay-boat.jpg" alt="Ha Long Bay" style="width:100%; height:100%;">
+       <div class="centered"><marquee>Welcome to Our Website</marquee></div>
+    </div>
+        
+        
+        <article colour="blue">
+         
+            <h3><marquee>Exploration and Adventure</marquee></h3>
+            <img src="girl-advancture.jpg" alt="Adventure" height="50%px" width="100%" >
+            <br>
+            <button class="read-more">Read More</button>
+            <div id="moreInfo">
+              <p id="userInfo"><strong> Cultural Experiences:</strong>
+                Visiting historical sites, museums, and participating in local traditions and festivals.
+                <br>
+                <strong> Natural Wonders:</strong>
+                Exploring national parks, mountains, beaches, and other natural landscapes.
+                <br>
+               <strong>Outdoor Activities:</strong>
+                Hiking, trekking, scuba diving, skiing, and other adventure sports.
+              </p>
+          </div>
+        </article>
+        <article>
+            <h3><marquee>Relaxation and Leisure</marquee></h3>
+            <img src="relax.png" alt="Adventure" height="50%0px" width="100%" >
+            <br>
+            <button class="read-more">Read More</button>
+            <div id="moreInfo">
+              <p id="userInfo"><strong> Resorts and Spas:</strong> 
+                Staying in luxurious accommodations that offer various relaxation amenities.
+                <br>
+               <strong> Beaches and Islands:</strong>
+                Enjoying sunbathing, swimming, and beach activities.
+                <br>
+               <strong> Cruises:</strong>
+                Traveling on cruise ships that provide entertainment, dining, and relaxation options
+              </p>
+          </div>
+          <article>
+            <h3><marquee>Learning and Growth</marquee></h3>
+            <img src="tourist-couple-outdoors-with-map.jpg" alt="Adventure" height="50%0px" width="100%" >
+            <br>
+            
+            <button class="read-more">Read More</button>
+            <div id="moreInfo">
+              <p id="userInfo">
+              <strong> Educational Tours:</strong>  
+                Visiting places of historical and scientific significance, such as ancient ruins, museums, and research centers.
+                <br>
+               <strong> Language Learning:</strong>
+                Immersing in a foreign language through interaction with native speakers.
+                <br>
+               <strong> Personal Development:</strong>
+                 Experiencing new cultures and perspectives, enhancing adaptability and global awareness.
+              </p>
+          </div>
+        </article>
+
+        <article>
+          <h3><marquee>Social and Recreational</marquee></h3>
+          <img src="pexels-evonics-1058277.jpg" alt="Adventure" height="50%0px" width="100%" >
+            <br>
+
+          
+          <button class="read-more">Read More</button>
+          <div id="moreInfo">
+            <p id="userInfo">
+            <strong> Group Travel: </strong>
+            Joining group tours, travel clubs, or adventure groups.
+            <br>
+           <strong> Festivals and Events:</strong> 
+            Attending music festivals, sporting events, and cultural celebrations.
+            <br>
+           <strong> Nightlife and Entertainment: </strong>
+           Exploring local bars, clubs, theaters, and entertainment venues.
+            </p>
+        </div>
+      </article>
+      
+    </section>
+    <section id="destinations">
+        <h2><marquee>Explore Destinations</marquee></h2>
+
+        <div class="head">
+        
+      </div>
+      <div class="dest" id="destination">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Nature Destinations:
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>Kathmandu, Nepal:
+               Known for its rich cultural heritage and stunning natural landscapes.</strong><p>Kathmandu Valley, nestled amidst the majestic Himalayas is a treasure trove of cultural heritage. It boasts 7 UNESCO World Heritage Sites: Kathmandu Durbar Square, Patan Durbar Square, Bhaktapur Durbar Square, Swayambhunath Stupa, Boudhanath Stupa, Pashupatinath Temple, and Changu Narayan Temple</p> </div>
+               <img src="nepal.jpeg" alt="Kathmandu, Nepal"  height="250px" width="250px">
+               <img src="nepa1.jpeg" alt="Kathmandu, Nepal"  height="250px" width="250px">
+               <img src="nepal2.jpeg" alt="Kathmandu, Nepal"  height="250px" width="250px">
+               <img src="nepal4.jpeg" alt="Kathmandu, Nepal"  height="250px" width="250px">
+              </div>
+            </div>
+          </div>
+          <div class="dest" id="destination">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Cultural Destinations
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>Cuba:</strong> <p>Topped the list for cultural sightseeing with its vibrant history and architecture.</p>
+                    <strong>  Cusco, Peru:</strong> <p> A gateway to the Incan heritage and the famous Machu Picchu.</p>
+                    <strong> Agra, India:</strong><p> Home to the iconic Taj Mahal</p>
+    .</strong>  </div>
+                   <img src="cuba.jpeg" alt="cuba"  height="250px" width="250px">
+                   <img src="cuba1.jpeg" alt="cuba"  height="250px" width="250px">
+                   <img src="peru.jpg" alt="peru"  height="250px" width="250px">
+                   <img src="taj-mahal.jpg" alt="agra"  height="250px" width="250px">
+                  </div>
+                </div>
+              </div>
+              <div class="dest" id="destination">
+                <div class="accordion" id="accordionExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Adventure and Unique Experiences
+                      </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <strong>Palau</strong><p>Ideal for scuba diving and snorkeling with its unspoiled beaches and clear waters.</p>
+                        <strong>Ikaria, Greece</strong><p>Known for its stunning landscapes and outdoor activities like sailing and kayaking</p>
+                        <strong>Western Balkans</strong><p>The new Trans Dinarica cycling route offers a thrilling adventure through alpine lakes, national parks, and UNESCO sites</p>
+                       
+                       <img src="kayakin-palau-1.jpg" alt="Kathmandu, Nepal"  height="250px" width="250px">
+                       <img src="palau.jpeg" alt="Kathmandu, Nepal"  height="250px" width="250px">
+                       <img src="ikaria.jpeg" alt="Kathmandu, Nepal"  height="250px" width="250px">
+                       <img src="western.jpeg" alt="Kathmandu, Nepal"  height="250px" width="250px">
+                      </div>
+                    </div>
+                  </div>
+          </div>
+        </div>
+
+        <!-- Articles about different travel destinations -->
+</section>
+    <section id="tips">
+        <h2><marquee>Travel Tips</marquee></h2>
+        
+          
+            <p>
+              <h3><marquee>1. ONLY BRING WHAT YOU NEED</marquee></h3>
+              <img src="Only-Bring-What-You-Need.webp" alt="Only-Bring-What-You-Need" height="250px" width="250px">
+              <br>
+The first rule for packing is to limit your items to only the essentials. Never cram all your stuff into the suitcases, only because you might need them. 
+Bring only the things that aren't replaceable where you're headed, and skip all the items with local alternatives.
+From our experiences, it's best to have a packing list so you don't overpack and never forget anything. Start with your important papers and personal identifications. Put them all in a zip bag and store them inside the safe compartment of your backpack.
+Once you're done, it's time to check on your electronic devices. In most cases, you only need space for the phone and its charger. Your laptop is optional, especially if you don't plan to use it often during your vacation.
+           </p>
+           <br>
+           <p>
+              <h3><marquee>2. LEARN TO PACK CLOTHES EFFICIENTLY</marquee></h3>
+              <img src="clothpack.jpeg" alt="" height="250px" width="250px">
+             <br>
+             Your clothes and other accessories are much needed to show off your styles and capture amazing pics during the trips. But only take those that you'll most likely wear during the experience. And make sure to follow our guidelines to pack them like a pro:
+
+You should always try to roll your clothes to optimise the space inside your backpack.
+Remember to put heavy accessories and clothes at the bottom of your suitcase or bag to avoid any disturbances during transportation.
+It's highly recommended that you use packing cubes to help organise the items inside your suitcase. Thus, allowing you to make the most of the available spaces.
+</p>
+<br>
+<p>
+  <h3><marquee>3. A DAYPACK FOR EXPLORATION</marquee></h3>
+  <img src="A-Daypack-For-Exploration.webp" alt="" height="250px" width="250px">
+  <br>
+  You don't have to bring your entire luggage when exploring a new travel destination. Instead, learn to prepare a small quality daypack for better mobility and convenience. This will allow you to relieve a lot of weight on your backpack, especially if you're always on the move.
+
+Only take important items like your water bottle, sunscreen, snacks, charger, ID, and a little bit of cash. Depending on the day and your travel preferences, you can pack your stuff differently each day.
+
+Remember, you don’t need much to explore a new place, just be open-minded and embrace the complexity.
+</p>
+<br>
+<p>
+  <h3><marquee>4.EAT AND DRINK LIKE A LOCAL</marquee></h3>
+  <img src="eatlocal" alt="" height="250px" width="250px">
+  <br>
+  One of the best experiences that you can have when travelling is trying local cuisine. And the best places to get these indigenous dishes are the local markets and restaurants. Look for the most recommended places on the Internet and start exploring them whenever you can.
+
+It's even better to find a guide who can help you navigate the streets and get to places where they sell real, local specialities. A telling sight is when a place is full of tourists instead of the locals.
+
+And when eating in a foreign country, our top travel tips would be to consider eating at trusted facilities and always watch how they cook it (do they wash their hand? Is there any ingredients that you are allergic to?).
+
+When in doubt, drink only filtered or bottled water. Some even go so far as to brushing their teeth with water from their trusted source only. This will improve your food and drink safety while travelling
+
+</p>
+</li>
+</li>
+
+
+        <!-- Travel tips articles -->
+    </section>
+    <section id="gallery">
+        <h2>Travel Gallery</h2>
+        <!-- <li class="nav-item"> -->
+          <!-- <a class="nav-link" href="#">Gallary</a> -->
+          <ul>
+            <li>
+              <div>
+                <img src="nature.jpg" alt="" height="250px" width="250px">
+                <img src="flowers.jpg" alt="" height="250px" width="250px">
+                <img src="autumn.jpg" alt="" height="250px" width="250px">
+                <img src="camera.jpg" alt="" height="250px" width="250px">
+              </div>
+                <br>
+                <div>
+                <img src="hot-air-balloon.jpg" alt="" height="250px" width="250px">
+                <img src="nature22.jpg" alt="" height="250px" width="250px">
+                <img src="boats.jpg" alt="" height="250px" width="250px">
+                <img src="beach.jpg" alt="" height="250px" width="250px">
+                
+              </div>
+           </li>
+          </ul>
+        
+        
+        
+        <!-- </li> -->
+        
+        <!-- Image slider for travel photos -->
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form" color="blue">
+          <div>
+            <input type="text" name="name" placeholder="Your Name" required>
+            <br><br>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <br><br>
+            <textarea name="message" placeholder="Your Message" required ></textarea>
+            <br><br>
+            <button type="submit">Send</button>
+          </div>
+        </form>
+    </section>
+    <footer>
+        <p><marquee>&copy; 2024 Travel The World. All rights reserved.</marquee></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
